@@ -10,6 +10,17 @@
     <b>NaszGPT</b> to webowa aplikacja chatbotowa, zbudowana w Streamlit, umożliwiająca prowadzenie rozmów z modelem językowym <span style="color:#7c4dff;font-weight:bold;">OpenAI GPT-4o</span>.<br>
     Pozwala na zarządzanie wieloma konwersacjami, personalizację osobowości chatbota oraz śledzenie kosztów zużycia tokenów.
   </p>
+  <div style="margin: 18px 0 8px 0; text-align:center;">
+    <a href="https://naszgpt-kurs.streamlit.app" target="_blank"
+      style="text-decoration:none;display:inline-block;padding:10px 26px;border-radius:8px;font-size:1.08em;font-weight:600;background:linear-gradient(90deg,#7c4dff,#00e676);color:#fff;box-shadow:0 2px 8px rgba(124,77,255,0.10);transition:filter 0.18s;">
+      🚀 Sprobować aplikacje
+    </a>
+    <style>
+      a:hover {
+        filter: brightness(0.9);
+      }
+    </style>
+  </div>
 </div>
 
 <div style="border: 2.5px solid; border-image: linear-gradient(120deg, #7c4dff, #00e676) 1; border-radius: 20px; padding: 22px 28px; margin: 28px 0 32px 0; background: rgba(124,77,255,0.05); box-shadow: 0 4px 18px rgba(124,77,255,0.09);">

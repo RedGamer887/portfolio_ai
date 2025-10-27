@@ -10,10 +10,21 @@
     <b>Oferty Pracy</b> to wielojęzyczna aplikacja webowa oparta o Streamlit, która pomaga analizować CV z użyciem sztucznej inteligencji (<span style="color:#7c4dff;font-weight:bold;">OpenAI GPT-4o</span>) oraz generuje spersonalizowane oferty pracy i porady zawodowe dostosowane do twojego profilu oraz preferowanego stanowiska.
   </p>
   <div style="margin: 18px 0 8px 0; text-align:center;">
-    <a href="oferty_pracy.zip" download
-       style="text-decoration:none;display:inline-block;padding:10px 26px;border-radius:8px;font-size:1.08em;font-weight:600;background:linear-gradient(90deg,#7c4dff,#00e676);color:#fff;box-shadow:0 2px 8px rgba(124,77,255,0.10);transition:background 0.2s;">
-      💾 Pobierz Notebook + Obrazek
-    </a>
+    <div style="display:inline-flex; gap:16px;">
+      <a href="oferty_pracy.zip" download
+        style="text-decoration:none;display:inline-block;padding:10px 26px;border-radius:8px;font-size:1.08em;font-weight:600;background:linear-gradient(90deg,#7c4dff,#00e676);color:#fff;box-shadow:0 2px 8px rgba(124,77,255,0.10);transition:filter 0.18s;">
+        💾 Pobierz Notebook + Obrazek
+      </a>
+      <a href="https://oferta-pracy-ai.streamlit.app" target="_blank"
+        style="text-decoration:none;display:inline-block;padding:10px 26px;border-radius:8px;font-size:1.08em;font-weight:600;background:linear-gradient(90deg,#7c4dff,#00e676);color:#fff;box-shadow:0 2px 8px rgba(124,77,255,0.10);transition:filter 0.18s;">
+        🚀 Sprobować aplikacje
+      </a>
+    </div>
+    <style>
+      a:hover {
+        filter: brightness(0.9);
+      }
+    </style>
   </div>
 </div>
 
