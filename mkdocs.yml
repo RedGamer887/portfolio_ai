@@ -1,0 +1,36 @@
+site_name: Moje portfolio
+site_author: Denis Karankevich
+
+theme:
+  name: material
+  icon:
+    logo: material/account-circle
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+  features:
+    - palette
+
+nav:
+- Główna strona: index.md
+- Projekty z kursu:
+  - "NaszGPT": naszgpt/index.md
+  - "Audio notatki": audio_notes/index.md
+  - "Wyszukiwanie znajomych": find_friends/index.md
+- Projekty indywidualne:
+  - "Audio & Wideo": audio_video_summary/index.md
+  - "Poszukiwanie pracy": oferty_pracy/index.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
