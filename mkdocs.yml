@@ -1,6 +1,9 @@
 site_name: Moje portfolio
 site_author: Denis Karankevich
 
+repo_name: RedGamer887/portfolio_ai
+repo_url: https://github.com/RedGamer887/portfolio_ai
+
 theme:
   name: material
   icon:
